@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width" />
-    <title>css garden</title>
+    <title>mini css activity</title>
     <link href="style.css" rel="stylesheet" type="text/css" />
   </head>
   <body>
@@ -13,7 +13,7 @@
       <main>
         <section>
           <article class="horchata">
-            <h2>Horchata</h2>
+            <h2 id="horchata">Horchata</h2>
             <h3>A Mexican Drink of finest quality!</h3>
             <ul>
               <li>Rice</li>
@@ -23,7 +23,7 @@
             </ul>
           </article>
           <article class="shirley">
-            <h2>Shirley Temple</h2>
+            <h2 id="shirley">Shirley Temple</h2>
             <h3>Even sweeter than the kid!</h3>
             <ul>
               <li>Grenadine</li>
@@ -34,7 +34,7 @@
         </section>
         <section>
           <article class="mojito">
-            <h2 class="mojito">Mojito Mocktail</h2>
+            <h2 id="mojito">Mojito Mocktail</h2>
             <h3 class="mojito">Minty fresh goodness!</h3>
             <ul>
               <li>Sugar</li>
@@ -44,7 +44,7 @@
             </ul>
           </article>
           <article class="pear-rose">
-            <h2 class="rosy">Pear & Rose Punch</h2>
+            <h2 id="rosy">Pear & Rose Punch</h2>
             <h3>Get fancy!</h3>
             <ul>
               <h3>Note: Only use champagne flutes</h3>
@@ -57,5 +57,27 @@
         </section>
       </main>
     </div>
+
+    <footer>
+      <form>
+        <legend><strong>Subscribe to my newsletter</strong></legend>
+        <div>
+          <label for="name">Enter your full name: </label>
+          <input type="text" id="name" name="name" />
+        </div>
+
+        <div>
+          <label for="email">Enter your email: </label>
+          <input type="email" id="email" name="email" />
+        </div>
+
+        <div>
+          <label for="num-contacts"
+            >How many times would you like to be contacted?</label
+          >
+          <input type="number" id="contactme" name="contactme" />
+        </div>
+      </form>
+    </footer>
   </body>
 </html>

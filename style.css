@@ -68,6 +68,22 @@ li:nth-child(even) {
 /* change the color of each h2 drink name to something you like */
 /* https://htmlcolorcodes.com/color-names/ */
 
+#horchata {
+  color: antiquewhite;
+}
+
+#shirley {
+  color: red;
+}
+
+#mojito {
+  color: lime;
+}
+
+#rosy {
+  color: rosybrown;
+}
+
 /* BONUS BONUS */
 /* go into index.html
 make a form called 'subscribe to my newsletter'
